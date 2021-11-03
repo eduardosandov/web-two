@@ -1,0 +1,72 @@
+
+:root {
+  --button: bold 14px/22px var(--fontBase);
+  --gradient: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #4e5be9 0%, rgba(12, 109, 219, 0) 100%), linear-gradient(135deg, #16e5ec 0%, #4545cc 100%);
+  --azul: #00a4e1;
+  --fondo: #c7e0e7;
+  --gris: #ced5ce;
+}
+  @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600');
+
+
+  /*---------------------------------------
+     TYPOGRAPHY              
+  -----------------------------------------*/
+
+
+
+
+
+  /*---------------------------------------
+      HOME              
+  -----------------------------------------*/
+  .slider .container {
+    margin: 0;
+    width: 100%;
+
+  }
+
+  .slider .owl-dots {
+      position: absolute;
+      top: 80px;
+      width: 100%;
+      justify-content: center;
+  }
+
+  .owl-theme .owl-dots .owl-dot span {
+    width: 8px;
+    height: 8px;
+    margin: 5px 7px;
+    border: 2px solid #d9d9d9;
+    background: transparent;
+    display: block;
+    -webkit-backface-visibility: visible;
+    transition: opacity 200ms ease;
+    border-radius: 30px;
+  }
+
+  .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background-color: #ffffff;
+    border-color: transparent;
+  }
+
+  .slider .item {
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: cover;
+    height:230px;
+  }
+
+  .slider .item-first {
+    background-image: url(../images/slider1.jpeg);
+  }
+
+  .slider .item-second {
+    background-image: url(../images/slider2.jpeg);
+  }
+
+  .slider .item-third {
+    background-image: url(../images/slider3.jpeg);
+  }
+
